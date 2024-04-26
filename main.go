@@ -36,3 +36,29 @@ func Acosh(x float64) float64 {
 func Asin(x float64) float64 {
 	return math.Asin(x)
 }
+
+func Asinh(x float64) float64 {
+	return math.Asinh(x)
+}
+func Atan(x float64) float64 {
+	return math.Atan(x)
+}
+func Atan2(y, x float64) float64 {
+	return math.Atan2(x, y)
+}
+func Atanh(x float64) float64 {
+	return math.Atanh(x)
+}
+func Cbrt(x float64) float64 {
+	return math.Cbrt(x)
+}
+
+func Copysign(f, sign float64) float64 {
+	return math.Copysign(f, sign)
+}
+func Cos(x float64) float64 {
+	return math.Cos(x)
+}
+func Cosh(x float64) float64 {
+	return Cosh(x)
+}
